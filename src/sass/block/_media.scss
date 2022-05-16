@@ -1,0 +1,80 @@
+@media (max-width: 320px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+
+        .container{
+            position: relative;
+            max-width: 320px;
+            margin: 0 auto;
+        }
+
+        .title {
+            position: absolute;
+            left: 45px;
+            font-size: 15px;
+            text-align: center;
+        }
+        .benefits {
+            display: none;
+        }
+        .consultation {
+            display: none;
+        }
+        .header {
+            position: relative;
+            min-width: 100%;
+            &__logo {
+                position: absolute;
+                width: 120px;
+                height: 150px;
+                top: 10px;
+                left: 10px;
+            }
+            &__official {
+                display: none;
+            }
+            &__phone {
+                display: none;
+            }
+            .button {
+                position: absolute;
+                top: 6px;
+                right: 65px;
+                width: 120px;
+                height: 30px;
+                font-size: 10px;
+                text-align: center;
+            }
+        }
+
+        .promo {
+            min-height: 150px;
+            position: relative;
+            &__header {
+                position: absolute;
+                top: 55px;
+                left: 60px;
+                font-size: 12px;
+            }
+            &__subheader {
+                position: absolute;
+                top: 90px;
+                left: 20px;
+                font-size: 11px;
+            }
+            &__icons {
+               display: none;
+            }
+        
+            .button_main {
+                display: none;
+            }
+            &__link {
+                display: none;
+            }
+        }
+
+    }
+    
+}
